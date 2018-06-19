@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/dialogTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_8"
+        android:text="demo text"
+        android:layout_marginTop="@dimen/margin_8"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_20" />
+
+    <Button
+        android:id="@+id/dialogOkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/dialogTitleText"
+        android:layout_marginEnd="@dimen/margin_8"
+        android:background="@android:color/transparent"
+        android:text="OK"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/font_18" />
+
+</RelativeLayout>
